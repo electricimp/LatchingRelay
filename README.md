@@ -2,6 +2,8 @@
 
 This Squirrel class implements an interface for a latching relay. It requires two pins (one to toggle the on state, and one to toggle the off state).
 
+**To add this library to your project, add** `#require "LatchingRelay.class.nut.class.nut:1.0.0"` **to the top of your device code**
+
 ## Class Usage
 
 ## constructor(*onPin, offPin, [defaultState]*)
